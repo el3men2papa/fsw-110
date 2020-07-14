@@ -1,18 +1,20 @@
+
 //appending H1 into HTML
-var h1Tag= document.body.innerHTML += "<h1>There is no place like home</h1>"
+var h1text= document.body.innerHTML += "<h1>Welcome to my JS site</h1>"
 
 //appeding P into HTML
-var pTag= document.body.innerHTML += "<p>Home is where family is</p>"
+var ptext= document.body.innerHTML += "<p>All of this was created with Javascript</p>"
 
-//Creating the list
+
+//Creating 
 function createMenuItem(name) {
     let li = document.createElement('li');
     li.textContent = name;
     return li;
 }
-// get the ul#home
-const menu = document.querySelector("#home");
+// get the ul#menu
+const menu = document.querySelector('#menu');
 // add menu item
-menu.appendChild(createMenuItem("Companions"));
-menu.appendChild(createMenuItem("Kids"));
-menu.appendChild(createMenuItem("Roof over our head"));
+menu.appendChild(createMenuItem('Home'));
+menu.appendChild(createMenuItem('Services'));
+menu.appendChild(createMenuItem('About Us'));
