@@ -1,18 +1,21 @@
-//appending H1 into HTML
-var h1Tag= document.body.innerHTML += "<h1>There is no place like home</h1>"
+var h1 = document.createElement("h1");
+document.body.append(h1);
+h1.textContent = "Welcome to my JS site";
 
-//appeding P into HTML
-var pTag= document.body.innerHTML += "<p>Home is where family is</p>"
+var p = document.createElement("p");
+document.body.append(p);
+p.textContent = "All of this was created by JavaScript";
 
-//Creating the list
-function createMenuItem(name) {
-    let li = document.createElement('li');
-    li.textContent = name;
-    return li;
-}
-// get the ul#home
-const menu = document.querySelector("#home");
-// add menu item
-menu.appendChild(createMenuItem("Companions"));
-menu.appendChild(createMenuItem("Kids"));
-menu.appendChild(createMenuItem("Roof over our head"));
+var orderList = document.createElement("ol");
+document.body.append(orderList);
+
+var list1 = document.createElement("li");
+list1.textContent = "Home";
+
+var list2 = document.createElement("li");
+list2.textContent = "About";
+
+var list3 = document.createElement("li");
+list3.textContent = "Contact"
+
+orderList.append(list1,list2,list3);
