@@ -1,0 +1,12 @@
+#btnAdd{
+    margin: 5px;
+    padding: 5px;
+  
+}
+
+#btnSubtract{
+    margin: 10px;
+}
+body {
+    background-color: antiquewhite;
+}
