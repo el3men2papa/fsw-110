@@ -3,18 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculatorJS</title>
-    <link href= "calculator.css" rel= "stylesheet">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
 </head>
 <body>
+    <!-- Here will find the fields for additions fields -->
+    <div class="addition">
+        <input type="number" id="addFirstNumber">
+        <span> + </span>
+        <input type="number" id="addSecondNumber">
+        <button id="add">Addition</button>
+        <label id="totaladd">Your Answer will be here</label>
+    </div>
 
-    <input type = "text" id= "firstNumber">
-    <input type = "text" id= "secondNumber">
-    <span>=</span>
-    <input type = "text" id= "totalNumber">
-    <div id="btnAdd"><input type ="button" value = "Add"></div>
-    <div><input id="btnSubtract" type = "button" value = "Subtract"></div>
-    <div><input id="btnMultiply" type = "button" value = "Multipy"></div>
-    <script src = "calculator.JS"></script>
+      <!-- Here will find the fields for Subtractions fields -->
+    <div class="Subtraction">
+        <input type="number" id="subFirstNumber">
+        <span> - </span>
+        <input type="number" id="subSecondNumber">
+        <button id="sub">Subtraction</button>
+        <label id="totalSub">Your Answer will be here</label>
+    </div>
+
+
+      <!-- Here will find the fields for Multiplication fields -->
+    <div class="multiplication">
+        <input type="number" id="multiplyFirstNumber">
+        <span> x </span>
+        <input type="number" id="multySecondNumber">
+
+        <button id="multiply">Multiplication</button>
+        <label id="totalMultiply">Your Answer will be here</label>
+    </div>
+
+
+    <script src="calculator.JS"> </script>
 </body>
 </html>
