@@ -25,7 +25,7 @@ myList.append(newLi3)
 
  */
 
-var h1 = document.createElement("h1")
+/* var h1 = document.createElement("h1")
 h1.textContent = 'Welcome to my JS site'
 document.body.append(h1)
 var newP = document.createElement("p")
@@ -42,7 +42,13 @@ document.body.append(myList);
 myList.append(newLi1)
 myList.append(newLi2)
 myList.append(newLi3)
+
+
+
+
+
+10:44
 var newFooter = document.createElement("footer") 
 document.body.append(newFooter);
 
- 
+ */
