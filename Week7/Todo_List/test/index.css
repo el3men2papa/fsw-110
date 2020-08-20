@@ -1,0 +1,60 @@
+header{
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 50px;
+    border-style: groove;
+}
+#table{
+    display: inline-block ;
+     justify-content: center; 
+    align-items: center; 
+      padding:10px;
+    margin: 10px;
+    border : 2px solid red;
+     
+}
+
+
+.tableset{
+    text-align: center;
+    padding:10px;
+    margin: 10px;
+        color: red;
+        margin: auto;
+        width: 50%;
+     /*    border: 3px solid green; */
+        padding: 10px;
+      }
+main{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(132, 196, 196);
+    color: blue;
+}
+
+#classN{
+    margin: 10px;
+}
+
+#table1{
+    text-align: center;
+    
+    border : 2px solid red;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+  
+      }
+      .tableset{
+        text-align: center;
+        padding:10px;
+        margin: 10px;
+            color: blue;
+            margin: auto;
+            width: 50%;
+         /*    border: 3px solid green; */
+            padding: 10px;
+          }
+        }

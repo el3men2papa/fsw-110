@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My to do list</title>
+    <link href = "index.css" rel ="stylesheet">
+</head>
+<body>
+    <header>
+        <div>My Shopping To Do List</div>
+    </header>
+    <main>
+
+
+    <form id="myForm"
+    action="javascript:void(0)"
+    onsubmit="addStudent('name','classN','table');">
+ 
+    Food Cathegory:
+    <input type="text" name="Food Cathegory" id="name" /> <br />
+    Food Items:
+    <input type="text" name="classN" id="classN" /> <br />
+
+    <input type="submit" value="Submit" />
+  
+  </form>
+</main>
+  <div class="tableset">
+  <table id="table">
+    <tr id = "table1">
+      <th>Food Cathegory</th>
+      <th>Food Items</th>
+      <th>Delete food</th>
+    </tr>
+  </table>
+  <script src ="index.js"></script>
+</div>
+</body>
+</html>
